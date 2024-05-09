@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.tokenomics-container {
+  height: max-content;
+  width: 100%;
+  background-color: var(--main-color);
+  background-image: url("./pngwing.svg");
+  position: relative;
+}
+
+.tokenomics-content {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  color: var(--dark-text-color);
+  font-size: 51px;
+  font-weight: 700;
+  margin-top: 1%;
+}
+
+.tokenomics-children {
+  background-color: black;
+  width: 100%;
+  height: fit-content;
+  border-radius: 20px;
+  margin: 2% auto 5%;
+  position: relative;
+}
+
+.ellips-outer {
+  background-image: url("./Hero.png");
+  position: absolute;
+  height: max-content;
+  width: 100%;
+}
+
+.ellips1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: -30px;
+  margin-top: -25px;
+}
+
+.ellips2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  filter: blur(80px) brightness(0.3);
+  margin-top: -30px;
+  margin-right: -40px;
+}
+.tokenomics-children-container {
+  width: 90%;
+  margin: 5% auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+}
+
+.tokenomics-child-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.tokenomics-child-header {
+  margin: 0 0 5%;
+}
+
+.tokenomics-header-text {
+  font-family: Roboto;
+  font-size: 27.71px;
+  font-weight: 700;
+  line-height: 32.48px;
+  text-align: left;
+}
+.tokenomics-header-text-sub {
+  font-family: Inter;
+  font-size: 15.19px;
+  font-weight: 500;
+  line-height: 22.33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: var(--main-color);
+}
+
+.div {
+  margin: 10% 0;
+}
+
+.div > h3 {
+  font-family: Roboto;
+  font-size: 20.78px;
+  font-weight: 700;
+  line-height: 24.36px;
+  text-align: left;
+}
+.div > p {
+  color: var(--main-color);
+  font-family: "Inter", sans-serif;
+  font-size: 15.19px;
+  font-weight: 500;
+  line-height: 22.33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.progress-bar {
+  width: 243.35px;
+  height: 8.66px;
+  gap: 0px;
+  border-radius: 2.6px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #3d3d3d;
+  border-radius: 2px;
+}
+
+.progress-bar-level {
+  height: 100%;
+  background-color: var(--main-color);
+  border-radius: 2px;
+}
+
+.tokenomics-child-footer-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div.footer {
+  margin: 2% 0;
+}
+.tokenomics-copy {
+  display: flex;
+}
+
+.tokenomics-copy > p {
+  padding-right: 10px;
+  color: var(--main-color);
+  font-family: "Inter", sans-serif;
+  font-size: 15.19px;
+  font-weight: 500;
+  line-height: 22.33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.tokenomics-box {
+  width: 450px;
+  height: max-content;
+  background: #0b0b0b;
+  margin: 0 auto;
+  border: 0.88px solid var(--main-color);
+  border-radius: 15.02px;
+  display: flex;
+  z-index: 1000;
+  justify-content: center;
+}
+
+.tokenmics-box-content {
+  margin: 20px auto 40px;
+}
+
+.progress-bar-level.box {
+  background-color: greenyellow;
+  
+}
+
+.div-level {
+  width: 100%;
+  height: 250px;
+  border-left: 1px solid var(--main-color);
+}
+
+.div-level-child {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-level-child > .linebox {
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.div.linebox-child {
+  margin: 15px 0;
+  margin-left: 5px;
+}
+
+.tokenomics-btns {
+  width: 450px;
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-width:790px) {
+  .progress-bar {
+  width: 150.35px;
+  height: 5.66px;
+  gap: 0px;
+  border-radius: 2.6px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #3d3d3d;
+  border-radius: 2px;
+}
+
+
+.tokenomics-child-footer-1 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tokenomics-box {
+  width: 80%;
+  height: max-content;
+  background: #0b0b0b;
+  margin: 0 auto;
+  border: 0.88px solid var(--main-color);
+  border-radius: 15.02px;
+  display: flex;
+  z-index: 1000;
+  justify-content: center;
+}
+.tokenomics-btns{
+  width: 80%;
+}
+
+}

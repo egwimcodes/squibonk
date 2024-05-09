@@ -1,0 +1,15 @@
+.outlinefillbutton {
+  width: max-content;
+  padding: 13px 28px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: var(--main-color);
+  border-radius: 28px;
+  margin: 10px;
+  color: white;
+  font-family: Roboto;
+  font-size: 13.9px;
+  font-weight: 700;
+  line-height: 20.44px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}

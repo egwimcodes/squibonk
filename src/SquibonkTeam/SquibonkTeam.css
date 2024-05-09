@@ -1,0 +1,50 @@
+.squibonkteam-container {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.squibonkteam-content {
+  margin: 0 auto;
+  width: 80%;
+}
+.squibonkteam-content-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.squibonkteam-content > h2 {
+  font-family: "Inter" sans-serif;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 54.57px;
+  color: var(--main-color);
+  margin: 20px auto;
+}
+
+.squibonkteam-content-box-card>img {
+  width: 443px;
+height: 314px;
+gap: 0px;
+opacity: 0px;
+border: 3px solid var(--main-color);
+border-radius: 20px;
+}
+
+.squibonkteam-content-box{
+    margin: 0 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-writeup{
+margin: 20px auto;
+}
+
+.team-writeup>h4{
+    color: var(--main-color);
+}
+.squibonkteam-content-box-card>span{
+  margin-bottom: 20px;
+  background-color: aqua;
+}
