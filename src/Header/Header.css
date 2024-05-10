@@ -100,3 +100,19 @@
   flex-wrap: wrap;
 }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 584px) {
+.header-content-child{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px auto 0;
+  flex-wrap: wrap;
+}
+.hero-svg-text {
+  width: 100%;
+  display: block;
+
+}
+}
