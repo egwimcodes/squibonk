@@ -34,10 +34,10 @@ function App() {
       </div>
       <div className="home" style={{ visibility: preloader ? 'hidden' : 'visible', display: preloader ? 'none' : 'block' }}>
         <Header />
-        <Tokenomics />
+        {/* <Tokenomics />
         <RoadMap />
         <SquibonkTeam />
-        <Footer />
+        <Footer /> */}
       </div>
     </>
   );
