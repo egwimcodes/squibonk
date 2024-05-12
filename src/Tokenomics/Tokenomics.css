@@ -6,37 +6,36 @@
   background-color: var(--main-color);
   background-image: url("./pngwing.svg");
 }
-.tokenomics-container > * p{
- color: var(--main-color);
+.tokenomics-container > * p {
+  color: var(--main-color);
 }
 
-.tokenomics-content{
+.tokenomics-content {
   width: 80%;
   margin: 0 auto;
   position: relative;
+  padding: 2% 0;
 }
 .tokenomics-content > h2 {
   font-family: "Inter" sans-serif;
   font-size: 1.5em;
   font-weight: 700;
   color: var(--dark-text-color);
-  margin: 20px auto;
 }
 
-.tokenomics-children{
+.tokenomics-children {
   background-color: black;
   border-radius: 10px;
   padding: 5%;
-
-
+  margin: 3% auto;
 }
 
-.tokenomics-child-1{
+.tokenomics-child-1 {
   display: flex;
   flex-direction: column;
 }
 
-.tokenomics-child-content{
+.tokenomics-child-content {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -44,7 +43,7 @@
   margin-top: 10%;
 }
 
-.tokenomics-child-content > * h3{
+.tokenomics-child-content > * h3 {
   font-family: "Inter" sans-serif;
   font-size: 1.2em;
 }
@@ -52,87 +51,76 @@
 .progress-bar {
   width: 100%;
   height: 10px;
-  background-color: #3D3D3D ;
+  background-color: #3d3d3d;
   border-radius: 20px;
 }
 
-.progress-bar-level{
+.progress-bar-level {
   height: 100%;
   background-color: var(--main-color);
-    border-radius: 20px;
-
+  border-radius: 20px;
 }
-.div{
-  margin: 8% auto; 
+.div {
+  margin: 8% auto;
+  padding: 0 5%;
 }
-.tokenomics-child-footer-1{
+.tokenomics-child-footer-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-.div.footer{
+.div.footer {
   border: 2px solid var(--main-color);
   border-radius: 10px;
   margin: 1% 1%;
 }
 
-.tokenmics-child-content-1{
-}
-.tokenomics-child-footer-2{
+.tokenomics-child-footer-2 {
   margin: 1% auto;
 }
 
-
-.tokenomics-child-2{
-  
-}
-
-.tokenomics-box{
-  background-color: #0B0B0B;
+.tokenomics-box {
+  background-color: #0b0b0b;
   border: 2px solid var(--main-color);
-  border-radius: 20px ;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 5%;
-
 }
 
-.tokenmics-box-content{
+.tokenmics-box-content {
   width: 80%;
 }
 
-.div-level{
+.div-level {
   width: 100%;
   border-left: 2px solid var(--main-color);
+  margin-bottom: 10%;
 }
-.linebox{
+.linebox {
   width: 10px;
-  height: 10px;
+  height: max-content;
   border-bottom: 2px solid var(--main-color);
   margin-right: 2%;
-
 }
-.div.linebox-child{
+.div.linebox-child {
   width: 100%;
 }
-.progress-bar-level.box{
+.progress-bar-level.box {
   background-color: greenyellow;
 }
-.div-level-child{
+.div-level-child {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 @media only screen and (max-width: 790px) {
-
 }
 
- @media only screen and (min-width: 320px) and (max-width: 584px) {
-
+@media only screen and (min-width: 320px) and (max-width: 584px) {
 }
-

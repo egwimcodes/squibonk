@@ -34,8 +34,8 @@ function App() {
         <Preloader />
       </div>
       <div className="home" style={{ visibility: preloader ? 'hidden' : 'visible', display: preloader ? 'none' : 'block' }}>
-        <Core />  
-        
+        <Core />
+
       </div>
     </>
   );

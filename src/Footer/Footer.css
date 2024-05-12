@@ -32,4 +32,5 @@
 }
 .footer-text{
     color: var(--main-color);
+    font-size: 16px;
 }

@@ -7,9 +7,10 @@ export default function RoadMap() {
     <>
       <section className="roadmap-container">
         <div className="roadmap-bg">
-          <img className='roadmap-1' src="./Hero-child.png" alt="" />
-          <img className='roadmap-2' src="./Hero-child.png" alt="" />
-          <img className='roadmap-3' src="./Hero-child.png" alt="" />
+          <img className='roadmap one' src="./Hero-child.png" alt="" />
+          <img className='roadmap two' src="" alt="" />
+          <img className='roadmap three' src="./Hero-child.png" alt="" />
+          <img className='roadmap four' src="./Hero-child.png" alt="" />
         </div>
         <div className="roadmap-content-container">
           <div className="roadmap-content">
