@@ -7,9 +7,19 @@ export default function Tokenomics() {
   return (
     <>
       <section className="tokenomics-container">
+        <div className="tokenomics-ellips">
+          <div className="tokenomics-ellips-content">
+            <img className="tokenomics-ellips1" src="./Hero-child.png" alt="" />
+            <img className="tokenomics-ellips2" src="./Hero-child.png" alt="" />
+
+          </div>
+        </div>
         <div className="tokenomics-content">
           <h2>TOKENOMICS</h2>
           <div className="tokenomics-children">
+            <div className="tokenomics-children-ellips">
+              <img className="tokenomics-children-ellips1" src="./Hero-child.png" alt="" />
+            </div>
             <div className="tokenomics-children-container">
               <div className="tokenomics-child-1">
                 <div className="tokenomics-child-header">
@@ -170,7 +180,7 @@ export default function Tokenomics() {
                     <OutlineFillButton text={'Buy On Pancakeswap'} />
                     <OutlineFillButton text={'AUDIT'} />
                   </div>
-                  </div>
+                </div>
               </div>
             </div>
             {/* <img className="ellips1" src="./Hero-grand-child81.png" alt="" />

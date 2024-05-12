@@ -1,10 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Header from './Header/Header';
-import Tokenomics from './Tokenomics/Tokenomics';
-import RoadMap from './RoadMap/RoadMap';
-import SquibonkTeam from './SquibonkTeam/SquibonkTeam';
-import Footer from './Footer/Footer';
 import Preloader from './Preloader/Preloader';
 import Core from './Core';
 
@@ -35,7 +30,6 @@ function App() {
       </div>
       <div className="home" style={{ visibility: preloader ? 'hidden' : 'visible', display: preloader ? 'none' : 'block' }}>
         <Core />
-
       </div>
     </>
   );

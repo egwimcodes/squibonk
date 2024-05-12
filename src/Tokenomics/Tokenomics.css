@@ -5,6 +5,10 @@
   width: 100vw;
   background-color: var(--main-color);
   background-image: url("./pngwing.svg");
+  position: relative;
+}
+.tokenomics-ellips{
+  display: none;
 }
 .tokenomics-container > * p {
   color: var(--main-color);
@@ -16,10 +20,14 @@
   position: relative;
   padding: 2% 0;
 }
+.tokenomics-children-ellips{
+  display: none;
+}
+
 .tokenomics-content > h2 {
   font-family: "Inter", sans-serif;
   color: var(--dark-text-color);
-  font-size: 2.5em ;
+  font-size: 2.5em;
   font-weight: 700;
   line-height: 54.57px;
   text-align: left;
@@ -127,6 +135,51 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .tokenomics-ellips{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+  }
+
+  .tokenomics-ellips-content{
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .tokenomics-children-ellips{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 15%;
+
+}
+.tokenomics-children-ellips1{
+  filter: blur(60px) brightness(0.5);
+}
+
+  .tokenomics-ellips-content > img{
+    width: 5%;
+    height: 12%;
+    filter: blur(2px);
+  }
+
+  .tokenomics-ellips1{
+    margin-top: -1%;
+    
+  }
+  .tokenomics-ellips2{
+    margin-top: 10%;
+    margin-left: 2%;
+    z-index: 1;
+    
+  }
 
   .tokenomics-child-2-child {
     width: 90%;
@@ -165,9 +218,3 @@
     font-size: 70%;
   }
 }
-
-/* @media only screen and (min-width: 584px) {
-  .tokenomics-container{
-    background-color: red;
-  }
-} */

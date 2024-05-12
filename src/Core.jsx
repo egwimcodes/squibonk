@@ -9,7 +9,6 @@ import Footer from './Footer/Footer'
 
 export default function Core() {
   return (
-
     <>
       <Navbar />
       <Header />
@@ -17,7 +16,6 @@ export default function Core() {
       <RoadMap />
       <SquibonkTeam />
       <Footer />
-
     </>
   )
 }

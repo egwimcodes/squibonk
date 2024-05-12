@@ -8,12 +8,10 @@ export default function SquibonkTeam() {
           <h2>
             SQUIBONK TEAM
           </h2>
-
           <div className="squibonkteam-content-list">
             <div className="squibonkteam-content-box">
               <div className="squibonkteam-content-box-card">
                 <img src="./team1.png" alt="" />
-
               </div>
               <div className="team-writeup">
                 <h4>SQUIBONK Dev:</h4>
@@ -24,7 +22,6 @@ export default function SquibonkTeam() {
             <div className="squibonkteam-content-box">
               <div className="squibonkteam-content-box-card">
                 <img src="./team2.png" alt="" />
-
               </div>
               <div className="team-writeup">
                 <h4>SQUIBONK Dev:</h4>

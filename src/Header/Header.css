@@ -1,6 +1,6 @@
 .header-bg {
   width: 100%;
-  height: 70vh;
+  height: 85vh;
   max-height: max-content;
   display: flex;
   flex-direction: row;
@@ -27,7 +27,7 @@
 }
 .hero-grand {
   align-self: flex-start;
-  margin: 6% 0 0 8%;
+  margin: 14% 0 0 4%;
 }
 
 .hero-child {
@@ -86,6 +86,7 @@
   width: 50%;
   min-width: 400px;
   margin-left: 30%;
+  margin-top: 13%;
 
 }
 .hero-img.second {
@@ -115,24 +116,12 @@
 
 .hero-img.second {
   width: 25%;
-  margin-top: 20%;
+  margin-top: 30%;
+  margin-left: 10%;
   z-index: -1;
   filter: blur(100px) brightness(0.3);
   position: absolute;
 }
-@media (max-width: 1200px) {
-
-  /* .header-content-child {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-  } */
-
-}
-
 
 @media only screen and (max-width: 790px) {
 
@@ -161,25 +150,3 @@
 }
 
 }
-
-/* @media only screen and (min-width: 300px) and (max-width: 584px) {
-  .header-content-child {
-    width: 97%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 30px auto 0;
-    flex-wrap: wrap;
-  }
-  .hero-svg-text {
-    width: 70%;
-  }
-  .hero-img{
-    margin: 0 auto;
-    width: 200px;
-    
-  }
-  .hero-img.first{
-  width: 300px;
-}
-}  */
