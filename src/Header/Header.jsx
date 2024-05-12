@@ -1,24 +1,22 @@
 import React from 'react'
-import Navbar from './Navbar/Navbar'
 import './Header.css'
 import { OutlineButton } from '../Components/Compnents'
 
 export default function Header() {
     return (
         <>
-            <Navbar />
             <section className='header-container'>
-                    <div className="header-bg">
-                        <div className="bg-blur-child first">
-                            <img className='hero-child first' src="./Hero-child.png" alt="" />
-                            <img className='hero-grand' src="./Hero-grand-child.png" alt="" />
-                        </div>
-                        <div className="bg-blur-child second">
-                            <img className='hero-child' src="./Hero-child.png" alt="" />
-                            <img className='hero-child center' src="./Hero-child.png" alt="" />
-                            <img className='hero-child' src="./Hero-child.png" alt="" />
-                        </div>
+                <div className="header-bg">
+                    <div className="bg-blur-child first">
+                        <img className='hero-child first' src="./Hero-child.png" alt="" />
+                        <img className='hero-grand' src="./Hero-grand-child.png" alt="" />
                     </div>
+                    <div className="bg-blur-child second">
+                        <img className='hero-child' src="./Hero-child.png" alt="" />
+                        <img className='hero-child center' src="./Hero-child.png" alt="" />
+                        <img className='hero-child' src="./Hero-child.png" alt="" />
+                    </div>
+                </div>
                 <div className="header-content">
                     <div className="header-content-child">
                         <div className="header-writup">

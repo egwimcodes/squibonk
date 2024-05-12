@@ -30,15 +30,6 @@ button{
   font-style: Robot, sans-serif;
 }
 
-section{
-  width: 100%;
-  position: fixed;
-}
-
 .home{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: red;
+ 
 }

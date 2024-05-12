@@ -6,6 +6,7 @@ import RoadMap from './RoadMap/RoadMap';
 import SquibonkTeam from './SquibonkTeam/SquibonkTeam';
 import Footer from './Footer/Footer';
 import Preloader from './Preloader/Preloader';
+import Core from './Core';
 
 function App() {
   const [preloader, setPreloader] = useState(true);
@@ -33,11 +34,8 @@ function App() {
         <Preloader />
       </div>
       <div className="home" style={{ visibility: preloader ? 'hidden' : 'visible', display: preloader ? 'none' : 'block' }}>
-        <Header />
-        {/* <Tokenomics />
-        <RoadMap />
-        <SquibonkTeam />
-        <Footer /> */}
+        <Core />  
+        
       </div>
     </>
   );

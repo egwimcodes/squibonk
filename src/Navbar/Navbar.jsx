@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { TextButton, OutlineButton } from "../../Components/Compnents.jsx";
+import { TextButton, OutlineButton } from "../Components/Compnents";
 import { RiMenu5Fill } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState, useEffect } from "react";
@@ -18,8 +18,8 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <nav>
-        <ul className="mobile-nav" style={{ visibility: width > 790 ? "visible" : "hidden" | visible ? "visible" : "hidden"}}>
-          <AiOutlineClose className="close-icon" onClick={() => setVisible(false)}/>
+        <ul className="mobile-nav" style={{ visibility: width > 790 ? "visible" : "hidden" | visible ? "visible" : "hidden" }}>
+          <AiOutlineClose className="close-icon" onClick={() => setVisible(false)} />
           <li>
             <a href="#">About</a>
           </li>
