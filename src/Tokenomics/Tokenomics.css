@@ -31,6 +31,7 @@
   font-weight: 700;
   line-height: 54.57px;
   text-align: left;
+  z-index: 30;
 }
 
 .tokenomics-children {
