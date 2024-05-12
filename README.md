@@ -1,8 +1,25 @@
-# React + Vite
+# Squibonk
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live @
 
-Currently, two official plugins are available:
+Check the live WebApp here 👉️ ([https://raw.githubusercontent.com/egwimcodes/squibonk/master/public/App.png/](https://raw.githubusercontent.com/egwimcodes/squibonk/master/public/App.png/))
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+
+### Install Dependencies:
+
+```bash
+
+npm install
+
+```
+
+### Run your development server
+```bash
+
+npm run dev
+
+```
+
+@Egwimcodes ([https://egwimcodes.dev](https://egwimcodes.dev))
+Wisdom Egwim is a highly skilled, ambitious Software Developer with a robust background in Python, Django, FastApi, Flutter, Dart, Javascript, ReactJS, NextJS, Css, Tailwindcss, and Bootstrap. My expertise extends beyond conventional boundaries, encompassing a profound understanding of ML and Robotics.
