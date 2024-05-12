@@ -109,7 +109,7 @@ export default function Tokenomics() {
                 </div>
               </div>
               <div className="tokenomics-child-2">
-                <div className="tokenomics-children-container-second">
+                <div className="tokenomics-child-2-child">
                   <div className="tokenomics-box">
                     <div className="tokenmics-box-content">
                       <div className="div">
@@ -170,7 +170,7 @@ export default function Tokenomics() {
                     <OutlineFillButton text={'Buy On Pancakeswap'} />
                     <OutlineFillButton text={'AUDIT'} />
                   </div>
-                </div>
+                  </div>
               </div>
             </div>
             {/* <img className="ellips1" src="./Hero-grand-child81.png" alt="" />
